@@ -22,3 +22,13 @@ def map_to_double(array)
   end
   return new_array
 end
+
+def map_to_square(array)
+  i = 0
+  new_array = []
+  while array.length > i do 
+    new_array[i] = array[i] ** 2
+    i += 1
+  end
+  return new_array
+end
