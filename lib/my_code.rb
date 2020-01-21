@@ -44,9 +44,10 @@ end
 
 def reduce_to_all_true(source_array)
   i = 0 
+  count = 0
   while source_array.length > i do
     if source_array[i] 
-      return true 
+      count += 1
     end
     i += 1
   end
